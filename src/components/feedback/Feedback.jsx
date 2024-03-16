@@ -23,6 +23,7 @@ const FeedBack = () => {
         break;
     }
   };
+
   const countTotalFeedback = () => {
     return good + neutral + bad;
   };
